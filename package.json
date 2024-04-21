@@ -1,6 +1,11 @@
 {
+  "scripts": {
+    "start": "node src/main.js",
+    "deploy": "node src/deploy-command.js"
+  },
   "dependencies": {
     "discord.js": "^14.14.1",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "sqlite3": "^5.1.7"
   }
 }
