@@ -53,7 +53,8 @@ module.exports = VisionDatabase;
 
 /*
 db.serialize(() => {
-    db.run("CVisionDatabase.#db.close();VisionDatabase.#db.close();VisionDatabase.#db.close();REATE TABLE IF NOT EXISTS lorem (info TEXT)");
+    //VisionDatabase.#db.close();VisionDatabase.#db.close();VisionDatabase.#db.close();
+    db.run("CREATE TABLE IF NOT EXISTS lorem (info TEXT)");
 
     const stmt = db.prepare("INSERT INTO lorem VALUES (?)");
     for (let i = 0; i < 10; i++) {
